@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine Sayanggg </title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body style="background-image:url(https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?q=80&w=693&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"
+ class="flex justify-center h-screen items-center"
+>
+<div class="bg-white border px-10 py-8 border-4 border-gray-300 shadow-lg shadow-gray-300 rounded-xl text-center animate__animated animate__backInDown m-8 w-80" id="kartu"
+>
+    <h1 class="textl-3xl"></h1>hai sayanggg :3 </h1>
+    <h1 class="text-4xltext-blue-500 font-bold animate__animated animate__pulse annimate__infinite"
+    >
+     from alif
+     </h1>
+    <button class="p-2 bg-pink-600 text white rounded mt-5 hover:bg-blue-900 transition ease-in w-full animate__animated animate__delay-1s animated__tada" onclick="UbahKartu()"
+    >
+        KLIK DISINI SAYANG
+    </button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script>const defaults = {
+  spread: 360,
+  ticks: 100,
+  gravity: 0,
+  decay: 0.94,
+  startVelocity: 30,
+  shapes: ["heart"],
+  colors: ["FFC0CB", "FF69B4", "FF1493", "C71585"],
+};
+
+confetti({
+  ...defaults,
+  particleCount: 50,
+  scalar: 2,
+});
+
+confetti({
+  ...defaults,
+  particleCount: 25,
+  scalar: 3,
+});
+
+confetti({
+  ...defaults,
+  particleCount: 10,
+  scalar: 4,
+});
+let kartu= document.getElementById("kartu");
+function UbahKartu() {
+    kartu.innerHTML =   `<h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+
+        happy valentine sayangku, makasih ya udah nemenin 1 tahun an ini , aku sayang kamu banget , makasih sayang udh maklumin sifatku yang pelupa, aku minta maaf kalo aku masih belum jadi yg kamu mau, jangan cape larang aku ya, jangan cape ngingetin aku ya, ill always love you :3 
+</h1>`;
+}
+</script>
+</body>
+</html>
